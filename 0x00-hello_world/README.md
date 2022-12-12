@@ -1,2 +1,2 @@
-#!bin/bash
-gcc -E C - Hello, World -o c
+#!/bin/bash                                                                                                                             
+gcc -c $CFILE -o 1-compiler.o
