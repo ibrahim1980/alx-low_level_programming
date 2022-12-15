@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  * main is the start point
  *
  *always return 0 (success)
- *
+ *Return: 0
  * Print _putchar
 */
 int main(void)
