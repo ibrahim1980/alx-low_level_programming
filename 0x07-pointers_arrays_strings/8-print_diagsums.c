@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+void print_diagsums(int *, int);
 /**
  * print_diagsums - prints the sums of diagonals .
  * @a: pointer to an array
@@ -9,20 +10,15 @@
  * Return: void
 */
 
-void print_diagsums(int *a, int size)
+int main(void)
 {
-	int i, j;
-	int c = 0;
-	int d = 0;
-
-	for (i = 0; i < size; i++)
-	{
-		c = c + *(a + i * sizeof(int));
-	}
-
-	for (j = 0; j < size; j++)
-	{
-		d = d + *(a + (size * j) + (size - j - 1));
-	}
-	printf("%d, %d\n", c, d);
+	int c3[3][3] = {
+		{72635472, 652476, 23842634},
+		{2634534, 2782634, 63458345},
+		{3453454, 3453455, 28974827}
+	};
+	print_diagsums((int *)c3, 3);
+	return (0);
 }
+
+
