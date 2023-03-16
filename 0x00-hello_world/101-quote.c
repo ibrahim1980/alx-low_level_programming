@@ -4,7 +4,6 @@
 #include <unistd.h>
 /**
  * main - main function
- *
  * Return: 1
  */
 int main(void)
