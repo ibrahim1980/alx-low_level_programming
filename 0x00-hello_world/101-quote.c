@@ -3,7 +3,8 @@
 #include <string.h>
 #include <unistd.h>
 /**
- * main - main function 
+ * main - main function
+ *
  * Return: 1
  */
 int main(void)
