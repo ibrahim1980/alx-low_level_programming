@@ -11,5 +11,5 @@ int main()
 	strncat(src,dest,23);
 	printf(src);
 
-	return 0;
+	return 1;
 }
