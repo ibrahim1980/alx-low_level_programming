@@ -1,15 +1,21 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <stdio.h>
-
-int main()
+/**
+ * main - main function
+ *
+ * Return: 0
+ */
+int main(void)
 {
-	char src[] = "and that piece of art is useful\"";
-	char dest[]= "-Dora Korpar,2015-10-19";
+	char *string;
+	char str1[] = "and that piece of art is useful\"";
+	char str2[] = "- Dora Korpar, 2015-10-2019";
 
-	strncat(src,dest,23);
-	printf(src);
+	string = malloc(strlen(str1) + strlen(str2) + 1);
+	strcpy(string, str1);
+	strcpy(string, str2);
+	strcat(str1,str2);
+	printf(" %s\n", str1);
 
-	return 1;
-}
+return (0);
