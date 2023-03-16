@@ -17,6 +17,8 @@ int main(void)
 	strcpy(string, str1);
 	strcpy(string, str2);
 	write(2, string, sizeof(string));
+	strncat(str1, str2,25);
+	printf(str1);
 
 return (1);
 }
