@@ -4,10 +4,13 @@
  *
  * Return:ALways 0 (succcess)
  */
+
 int main(void)
 {
     char c;
+    
     c='a';
+    
     while
     (c<='z')
     {
