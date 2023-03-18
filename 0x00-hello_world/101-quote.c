@@ -2,9 +2,8 @@
 #include <string.h>
 #include <unistd.h>
 /**
- * main - main function
- *
- * Return: Always 0 (Success)
+ * main - main for puts
+ * Return: 1
  */
 int main(void)
 { 
