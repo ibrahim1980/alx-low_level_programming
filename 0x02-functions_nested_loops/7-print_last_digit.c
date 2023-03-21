@@ -10,7 +10,7 @@
 int print_last_digit(int n)
 {
 	int last;
-	printf("\n");
+	
 	last = n % 10;
 	if (last < 0)
 	{
