@@ -4,15 +4,15 @@
  * main - Entry point
  * Return: Always 0
  */
-int main(void)
+void print_number(int n)
 {
-	unsigned long int i = 3, n = 612852475143;
-
-	for (; i < 12057; i += 2)
+	if (n == 0)
+		_putchar('0');
+	else if (n < 0)
 	{
-		while (n % i == 0 && n != i)
-			n /= i;
+		_putchar('-');
+		print_integer(n * -1);
 	}
-	printf("%lu\n", n);
-	return (0);
+	else
+		print_integer(n);
 }
