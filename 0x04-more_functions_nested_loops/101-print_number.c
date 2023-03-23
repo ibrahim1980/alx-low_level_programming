@@ -1,9 +1,9 @@
 #include "main.h" 
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_number - a function that prints an integer.
+ * @n: An input integer
+ * Return: Nothing
  */
 void print_number(int n)
 {
