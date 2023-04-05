@@ -2,13 +2,13 @@
 
 This repository contains more projects introducing the use, purpose of static libraries. Below is a list of the projects following a description for each of them.
 
-## Creating a static library libholberton.a
+## Creating a static library libmain.a
 ```
 -Wall -pedantic -Werror -Wextra -c \*.c
 
-ar -rc libholberton.a \*.o
+ar -rc libmain.a \*.o
 
-ar -t libholberton.a
+ar -t libmain.a
 
 0-isupper.o
 0-memset.o
@@ -31,13 +31,13 @@ ar -t libholberton.a
 9-strcpy.o
 \_putchar.o
 
-ranlib libholberton.a
+ranlib libmain.a
 
 creat a main.c file
 
-gcc main.c -L. -lholberton -o quote
+gcc main.c -L. -lmain -o quote
 ```
-## libholberton.a
+## libmain.a
 
 A static library containing all the functions listed below
 
@@ -66,7 +66,7 @@ char *_strstr(char *haystack, char *needle);
 
 
 
-## holberton.h
+## main.h
 
 The header file containing necessary prototypes. 
 
