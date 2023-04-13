@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+/**
+* main
+*
+* return 0
+*/
 char *test(char *str_num1, char *str_num2, int len1, int len2){	
   int str_sum[512], tmp, index;
   char *result;
