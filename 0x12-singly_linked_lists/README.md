@@ -4,7 +4,7 @@ In this project, I continued to practice building and using singly linked lists 
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files. Provided by ALX School.
 
 ## Header File :file_folder:
 
