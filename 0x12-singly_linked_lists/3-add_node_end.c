@@ -10,7 +10,7 @@
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new element.
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	listint_t *new, *last;
 
